@@ -6,13 +6,13 @@ app = Flask(__name__)
 posts = [
     {
         "author": "Arun",
-        "title": "First Post",
+        "title": "First Blog",
         "content": "First post content.",
         "created_at": "June 19, 2025",
     },
     {
         "author": "Anonymous",
-        "title": "Second Post",
+        "title": "Second Blog",
         "content": "Second post content.",
         "created_at": "June 20, 2025",
     },
