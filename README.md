@@ -1,1 +1,1 @@
-This repo is an attempt to get familiar with flask
+An attempt to get familiar with flask
