@@ -11,11 +11,16 @@ repos:
     hooks:
       - id: black
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.4.4
+  - repo: https://github.com/pycqa/autoflake
+    rev: v2.2.0
     hooks:
-      - id: ruff
-        args: [--select=F401, --fix] # F401 = remove unused imports
+      - id: autoflake
+        name: Remove unused imports (and unused variables)
+        args:
+          - --in-place
+          - --ignore-init-module-imports
+          - --remove-all-unused-imports
+          - --remove-unused-variables
 
   - repo: https://github.com/pre-commit/mirrors-isort
     rev: v5.9.3
