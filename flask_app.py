@@ -9,13 +9,13 @@ posts = [
         "author": "Arun",
         "title": "First Post",
         "content": "First post content.",
-        "created_at": "June 19, 2025"
+        "created_at": "June 19, 2025",
     },
     {
         "author": "Anonymous",
         "title": "Second Post",
         "content": "Second post content.",
-        "created_at": "June 20, 2025"
+        "created_at": "June 20, 2025",
     },
 ]
 
